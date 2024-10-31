@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterPiece | Ecommerce Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+ <div class="header">
+    <div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="image%20of%20karibu%20hotel%20name.png"width="425px"></a>
+        </div>
+        <nav>
+             <ul id="menuitems">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="project.html">Products</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+                <img src="menu%20icon.png" class="menu-icon"
+                onclick="menutoggle()">
+
+            </ul>
+        </nav>
+        
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Freshness You Can Trust! <br>Quality You Can Taste At Affordable Prices!</h1>
+            <p>
+
+Welcome to our food security project, dedicated to enhancing the well-being of university students (comrades) by providing affordable, nutritious meals. Our mission is to make healthy eating accessible through fresh products like chicken, eggs, vegetables, and blended fruit juices, all sourced locally to support our community.
+
+Founded on the belief that everyone deserves access to quality food, we aim to promote healthier lifestyles while addressing food insecurity among students. By partnering with local farmers and suppliers, we not only ensure the freshness of our offerings but also contribute to the local economy.
+
+Join us in our journey to transform campus dining with delicious meals that nourish both body and mind. Together, we can make a difference—because "Hakuna Kuinama Tukiwa!"—when we unite for a common cause. Thank you for supporting our vision, and we look forward to serving you!</p>
+            <a href="project.html" class="btn">Explore Now &#8594;</a>
+        </div>
+        </div>
+     </div>
+    </div>
+            
+<!-------- offer -------->
+                <div class="offer">
+                    <div class="small container">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="image%20of%20kuku%20full.jpg" class="offer-img">
+                            </div>
+                            <div class="col-2">
+                                <p>Exclusively Available on Karibu</p>
+                                <h1>Kuku Full</h1>
+                                <small>The Dodge Challenger is a classic muscle car known for its powerful performance and retro design. The SRT Hellcat offers up to 717 horsepower, delivering an exhilarating ride. Its spacious interior contrasts with its size and fuel economy drawbacks.</small>
+                                <p>Full @ 400 Tu</p>
+                                <a href="project.html"><div class="btn">Buy Now &#8594;</div></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            
+     <!-------- finishing -------->
+                <div class="finishing">
+                    <div class="small container">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="image%20of%20logo.png" class="offer-img">
+                            </div>
+                            <div class="col-2">
+                                <p>Exclusively Available on Karibu</p>
+                                <h1>Hakuna Kuinama Tena!</h1>
+                                <small>Thank you to the Kenya Presidential Innovation Award for empowering our vision of enhancing food security for university students. Together, we're making nutritious meals accessible and affordable, proving that when we unite for a common cause, "Hakuna Kuinama Tukiwa!" . Let's innovate for a healthier, more sustainable future!</small>
+                                <a href="project.html"><div class="btn">Buy Now &#8594;</div></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+    </div>
+    
+<!-------- js for toogle menu -------->
+    <script>
+        var menuitems = document.getElementById("menuitems");
+        
+        menuitems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(        menuitems.style.maxHeight == "0px")
+                {
+                            menuitems.style.maxHeight = "200px";
+
+                }
+            else
+                {
+                            menuitems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html>
+
